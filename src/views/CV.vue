@@ -7,11 +7,12 @@ import SidePanel from '@/components/SidePanel.vue';
 <template>
   <div class="cv">
     <SidePanel/>
-    <div>
+    <img class="bg" src="@/assets/background.svg">
+    <div class="data">
       <PersonalInfoPanel/>
       <ExperiencePanel/>
     </div>
-  </div>
+  </div>  
 </template>
 
 <style>
@@ -19,5 +20,21 @@ import SidePanel from '@/components/SidePanel.vue';
   height: 100%;
   width: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: bottom;
+  align-items: end;
+}
+
+.bg {
+  width: 1024px;
+  height: fit-content;
+  position: absolute;
+}
+
+.data {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 </style>

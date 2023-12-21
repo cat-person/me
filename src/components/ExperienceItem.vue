@@ -36,7 +36,6 @@ export default {
   flex-direction: row;
   width: 100%;
   justify-content: left;
-  background-color: cornsilk;
 }
 
 .company{
@@ -48,6 +47,5 @@ export default {
   flex-direction: column;
   width: 60%;
   justify-content: left;
-  background-color: rosybrown;
 } 
 </style>

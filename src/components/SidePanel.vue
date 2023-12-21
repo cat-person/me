@@ -7,7 +7,7 @@ import SkillsPanel from './SkillsPanel.vue';
       <div class="avatar_wrapper">
         <img class="avatar" src="@/assets/logo.svg"/>
       </div>
-      <SkillsPanel class="skill_panel"/>
+      <SkillsPanel/>
     </div>
 </template>
 
@@ -18,9 +18,8 @@ import SkillsPanel from './SkillsPanel.vue';
   flex-direction: column;
   height: 100%;
   width: 200px;
-  justify-content: right;
   padding: 20px;
-  background-color: bisque;
+  background-color:cornflowerblue;
 }  
 
 .avatar_wrapper {
@@ -28,15 +27,9 @@ import SkillsPanel from './SkillsPanel.vue';
   width: 160px;
   display: flex;
   justify-content: center;
-  background-color: blue;
 }
 .avatar {
   height: 100px;
   width: 100px;
-  background-color: crimson;
-}
-
-.skill_panel {
-  background-color: aqua;
 }
 </style>
