@@ -1,5 +1,6 @@
 <script setup>
 import SkillsPanel from './SkillsPanel.vue';
+
 </script>
 
 <template>
