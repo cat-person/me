@@ -1,14 +1,31 @@
+<script>
+import { ref } from 'vue'
+export default {
+  props: ['start_date', 'end_date', 'role', 'company', 'company_link', 'achievements'],
+  setup(props) {
+    const full_link = `https://${props.company_link}`
+    const achievements = ref([
+      "Did this cool thing",
+      "Did that cool thing",
+      "Was awesome in general"
+    ])
+
+    return { full_link, achievements }
+  }
+}
+</script>
+
 <template>
   <div class="ameow">
-    <h3>Jan 2022 - Nov 2024</h3>
+    <h4>{{ start_date }} - {{ end_date }}</h4>
     <div class="meowmeow">
-      <h2>Role</h2>
-      <h4>Company UwU</h4>
-      <ul>
-        <li>Did this cool thing</li>
-        <li>Did that cool thing</li>
-        <li>Was awesome in general</li>
-      </ul>
+      <h3>{{ role }}</h3>
+      <p style=company>
+        {{ company }} ( <a :href="full_link">{{ full_link }}</a>)
+      </p>
+      <li v-for="item in achievements">
+        {{item}}
+      </li>
     </div>
   </div>
 </template>
@@ -19,17 +36,17 @@
   flex-direction: row;
   width: 100%;
   justify-content: left;
-  background-color: brown;
-} 
+  background-color: cornsilk;
+}
 
-h3 {
-  width: 50%;
-  background-color: aquamarine;
+.company{
+  display: flex;
+  flex-direction: row
 }
 
 .meowmeow{
   flex-direction: column;
-  width: 50%;
+  width: 60%;
   justify-content: left;
   background-color: rosybrown;
 } 
