@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Montseratt";
+    src: url('@/assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "LibreBaskerville";
+    src: url('@/assets/fonts/LibreBaskerville-Regular.ttf');
+}
+
+h1 {
+    font-size: 1.8cm;
+    font-family: "LibreBaskerville";
+}
+
+h2 {
+    font-size: 1cm;
+    font-family: "Montseratt";
+    text-transform: capitalize;
+}
+
+h3 {
+    font-size: 0.5cm;
+    font-family: "Montseratt";
+}
+
+h3 {
+    font-size: 0.4cm;
+    font-family: "Montseratt";
+}
+
+p {
+    font-size: 0.3cm;
+    font-family: "Montseratt";
+}
+
+div {
+    font-size: 0.3cm;
+    font-family: "Montseratt";
+}

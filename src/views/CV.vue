@@ -7,7 +7,7 @@ import SidePanel from '@/components/SidePanel.vue';
 <template>
   <div class="cv">
     <SidePanel/>
-    <img class="bg" src="@/assets/background.svg">
+    <!-- <img class="bg" src="@/assets/background.svg"> -->
     <div class="data">
       <PersonalInfoPanel/>
       <ExperiencePanel/>
