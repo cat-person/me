@@ -13,7 +13,7 @@ export default {
 <template>
     <div class="container">
       <img :src="getImageUrl(logo_for)" class="logo"/>
-      <a :href="link" class="personal_link">{{ link_txt }}</a>
+      <a :href="link">{{ link_txt }}</a>
     </div>
 </template>
 
@@ -30,8 +30,5 @@ export default {
   height: 16px;
   width: 16px;
 
-}
-.personal_link {
-  
 }
 </style>

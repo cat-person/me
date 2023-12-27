@@ -4,13 +4,7 @@ export default {
   props: ['start_date', 'end_date', 'role', 'company', 'company_link', 'achievements'],
   setup(props) {
     const full_link = `https://${props.company_link}`
-    const achievements = ref([
-      "Did this cool thing",
-      "Did that cool thing",
-      "Was awesome in general"
-    ])
-
-    return { full_link, achievements }
+    return { full_link }
   }
 }
 </script>
