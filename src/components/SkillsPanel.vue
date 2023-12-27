@@ -4,9 +4,28 @@ export default {
   props: ['start_date', 'end_date', 'role', 'company', 'company_link', 'achievements'],
   setup(props) {
     const skills = ref([
-      "Such agile",
-      "Much progrumming",
-      "Do smart stuff"
+    "Android SDK", 
+    "iOS SDK", 
+    "Flutter",
+    "React-native",
+    "Kotlin", 
+    "Swift", 
+    "Rust", 
+    "Java", 
+    "C#",
+    "JS", 
+    "Dart", 
+    "Rest API",  
+    "SRT", 
+    "KTOR",
+    "Jetpack Compose",
+    "SwiftUI",
+    "WebSocket", 
+    "WebGPU", 
+    "Blender", 
+    "Sketch",
+    "Git", 
+    "Test Automation"
     ])
 
     return { skills }
