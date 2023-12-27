@@ -6,7 +6,7 @@ import SkillsPanel from './SkillsPanel.vue';
 <template>
     <div class="side_panel">
       <div class="avatar_wrapper">
-        <img class="avatar" src="@/assets/logo.svg"/>
+        <img class="avatar" src="@/assets/me.png"/>
       </div>
       <SkillsPanel/>
     </div>
@@ -24,13 +24,14 @@ import SkillsPanel from './SkillsPanel.vue';
 }  
 
 .avatar_wrapper {
-  height: 100px;
+  height: 200px;
   width: 160px;
   display: flex;
   justify-content: center;
 }
 .avatar {
-  height: 100px;
-  width: 100px;
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
 }
 </style>

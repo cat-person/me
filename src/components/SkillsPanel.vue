@@ -36,9 +36,9 @@ export default {
 <template>
     <div class="skills">
       <h2>Skills</h2>
-      <h3 v-for="skill in skills">
+      <h4 v-for="skill in skills">
         {{skill}}
-      </h3>
+      </h4>
     </div>
 </template>
 
