@@ -14,6 +14,5 @@ import CV from './views/CV.vue';
   height: 100vh;
   max-width: 80vw;
   min-width: 1024px;
-  background-color: aqua;
 }
 </style>

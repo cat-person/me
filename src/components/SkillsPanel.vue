@@ -43,10 +43,15 @@ export default {
 </template>
 
 <style scoped>
+h2 {
+  color: #FFFFFF;
+}
+h4 {
+  color: #FFFFFF;
+}
 .skills{
   flex-direction: column;
   width: 100%;
   justify-content: left;
-  background-color: blanchedalmond;
 }  
 </style>

@@ -10,13 +10,11 @@ export default {
 </script>
 
 <template>
-  <div class="ameow">
-    <h4>{{ start_date }} - {{ end_date }}</h4>
-    <div class="meowmeow">
+  <div class="experience_item">
+    <time class="date">{{ start_date }}-{{ end_date }}</time>
+    <div class="experience_description">
       <h3>{{ role }}</h3>
-      <p style=company>
-        {{ company }} ( <a :href="full_link">{{ full_link }}</a>)
-      </p>
+      <p style=company>{{ company }} [<a :href="full_link">{{ full_link }}</a>]</p>
       <li v-for="item in achievements">
         {{item}}
       </li>
@@ -25,21 +23,29 @@ export default {
 </template>
 
 <style>
-.ameow{
+
+.experience_item {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: left;
+  padding-bottom: 20px;
 }
+
+.date {
+  padding-top: 4px;
+}
+
+.experience_description {
+  padding-left: 10px;
+  flex-direction: column;
+  width: 60%;
+  justify-content: left;
+} 
 
 .company{
   display: flex;
   flex-direction: row
 }
 
-.meowmeow{
-  flex-direction: column;
-  width: 60%;
-  justify-content: left;
-} 
 </style>

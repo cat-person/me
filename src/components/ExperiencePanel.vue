@@ -67,5 +67,5 @@ import ExperienceItem from './ExperienceItem.vue';
   </template>
 
 <style scoped>
-/** AAAAAA **/
+
 </style>

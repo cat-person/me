@@ -1,6 +1,11 @@
 @font-face {
-    font-family: "Montseratt";
+    font-family: "Montserrat";
     src: url('@/assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: "MontserratRegular";
+    src: url('@/assets/fonts/Montserrat-SemiBold.ttf');
 }
 
 @font-face {
@@ -8,33 +13,56 @@
     src: url('@/assets/fonts/LibreBaskerville-Regular.ttf');
 }
 
+@font-face {
+    font-family: "Monaco";
+    src: url('@/assets/fonts/Monaco 400.ttf');
+}
+
 h1 {
-    font-size: 1.8cm;
+    font-size: 1.6cm;
     font-family: "LibreBaskerville";
+    text-transform: capitalize;
+    color: #FF9E80;
 }
 
 h2 {
-    font-size: 1cm;
-    font-family: "Montseratt";
-    text-transform: capitalize;
+    font-size: 0.9cm;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    color: #191970;
 }
 
 h3 {
     font-size: 0.5cm;
-    font-family: "Montseratt";
+    font-family: "Montserrat";
+    text-transform: uppercase;
 }
 
-h3 {
-    font-size: 0.4cm;
-    font-family: "Montseratt";
+h4 {
+    font-size: 0.3cm;
+    font-family: "MontserratRegular";
+    text-transform: uppercase;
+    color: #FFDAB9;
 }
 
 p {
     font-size: 0.3cm;
-    font-family: "Montseratt";
+    font-family: "MontserratRegular";
 }
 
 div {
     font-size: 0.3cm;
-    font-family: "Montseratt";
+    font-family: "Montserrat";
+}
+
+li{
+    font-size: 0.3cm;
+    font-family: "MontserratRegular";
+    color: #191970;
+}
+
+time {
+    font-size: 0.3cm;
+    font-family: "Monaco";
+    color: 191970;
 }

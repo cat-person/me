@@ -2,6 +2,8 @@
 import ExperiencePanel from '@/components/ExperiencePanel.vue';
 import PersonalInfoPanel from '@/components/PersonalInfoPanel.vue';
 import SidePanel from '@/components/SidePanel.vue';
+import '@/global.css';
+ 
 </script>
 
 <template>
@@ -34,7 +36,6 @@ import SidePanel from '@/components/SidePanel.vue';
 .data {
   height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  padding: 20px;
 }
 </style>

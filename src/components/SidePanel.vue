@@ -20,11 +20,11 @@ import SkillsPanel from './SkillsPanel.vue';
   height: 100%;
   width: 200px;
   padding: 20px;
-  background-color:cornflowerblue;
+  background-color: #263238;
 }  
 
 .avatar_wrapper {
-  height: 200px;
+  height: 5cm;
   width: 160px;
   display: flex;
   justify-content: center;
