@@ -1,5 +1,6 @@
 <script setup>
 import ExperiencePanel from '@/components/ExperiencePanel.vue';
+import EducationPanel from '@/components/EducationPanel.vue';
 import PersonalInfoPanel from '@/components/PersonalInfoPanel.vue';
 import SidePanel from '@/components/SidePanel.vue';
 import '@/global.css';
@@ -12,7 +13,8 @@ import '@/global.css';
     <!-- <img class="bg" src="@/assets/background.svg"> -->
     <div class="data">
       <PersonalInfoPanel/>
-      <ExperiencePanel/>
+      <ExperiencePanel  class="experience_bg"/>
+      <EducationPanel  class="experience_bg"/>
     </div>
   </div>  
 </template>
@@ -25,6 +27,10 @@ import '@/global.css';
   flex-direction: row;
   justify-content: bottom;
   align-items: end;
+}
+
+.experience_bg {
+  background-color: aqua;
 }
 
 .bg {

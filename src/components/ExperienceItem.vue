@@ -1,5 +1,4 @@
 <script>
-import { ref } from 'vue'
 export default {
   props: ['start_date', 'end_date', 'role', 'company', 'company_link', 'achievements'],
   setup(props) {
@@ -11,7 +10,7 @@ export default {
 
 <template>
   <div class="experience_item">
-    <time class="date">{{ start_date }}-{{ end_date }}</time>
+    <time class="date">{{ start_date }} - {{ end_date }}</time>
     <div class="experience_description">
       <h3>{{ role }}</h3>
       <p style=company>{{ company }} [<a :href="full_link">{{ full_link }}</a>]</p>
