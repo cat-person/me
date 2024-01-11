@@ -64,6 +64,17 @@ import ExperienceItem from './ExperienceItem.vue';
       'Worked on plethora of mobile applications from mobile cinema to budget tracking app to mobile games and mini social network.'
     ]"/>
 
+  <ExperienceItem 
+    start_date="Nov 2010" 
+    end_date="Dec 2011"
+    role="Junior Programmer"
+    company="Russian Institute of Power Radiobuilding"
+    company_link="rimr.ru"
+    :achievements="[
+      'Implemented UI for longwave radiostation control', 
+      'Implemented communication protocol with external devices', 
+    ]"/>
+  
   </template>
 
 <style scoped>
