@@ -10,7 +10,7 @@ import PersonalLink from './PersonalLink.vue';
     <h2 class="me_subtitle">Senior Software Developer</h2>
     <div class="horizontal_layout">
       <PersonalLink logo_for="gh" link="https://github.com/cat-person" link_txt="cat-person"/>
-      <PersonalLink logo_for="email" link="mailto:aleksei....@gmail.com" link_txt="aleksei....@gmail.com"/>
+      <PersonalLink logo_for="email" link="mailto:aleksei.klyshnikov@gmail.com" link_txt="aleksei.klyshnikov@gmail.com"/>
       <PersonalLink logo_for="ln" link="https://www.linkedin.com/in/alexey-klyshnikov-75b55763/" link_txt="Aleksei Klyshnikov"/>
     </div >
   </div>
