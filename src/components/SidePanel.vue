@@ -20,6 +20,7 @@ import SkillsPanel from './SkillsPanel.vue';
   height: 100%;
   width: 220px;
   padding-left: 20px;
+  padding-right: 20px;
   background-color: #0E1B2B;
 }  
 
