@@ -13,7 +13,7 @@ export default {
     <time class="date">{{ start_date }} - {{ end_date }}</time>
     <div class="experience_description">
       <h3>{{ role }}</h3>
-      <p style=company>{{ company }} [<a :href="full_link">{{ full_link }}</a>]</p>
+      <p class="company">{{ company }} [<a class="company_link" :href="full_link">{{ full_link }}</a>]</p>
       <li v-for="item in achievements">
         {{item}}
       </li>
@@ -23,28 +23,35 @@ export default {
 
 <style>
 
-.experience_item {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: left;
-  padding-bottom: 20px;
-}
+  .experience_item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: left;
+    padding-bottom: 20px;
+  }
 
-.date {
-  padding-top: 4px;
-}
+  .date {
+    padding-top: 6px;
+  }
 
-.experience_description {
-  padding-left: 10px;
-  flex-direction: column;
-  width: 60%;
-  justify-content: left;
-} 
+  .experience_description {
+    padding-left: 20px;
+    flex-direction: column;
+    width: 60%;
+    justify-content: left;
+  } 
 
-.company{
-  display: flex;
-  flex-direction: row
-}
+  .company{
+    height: 24px;
+    font-size: 0.3cm;
+    font-family: "MontserratRegular";
+  }
+
+  .company_link {
+    height: 24px;
+    font-size: 0.3cm;
+    font-family: "MontserratRegular";
+  }
 
 </style>
