@@ -21,7 +21,7 @@ export default {
 
 .container{
   width: fit-content;
-  min-width: 16vw;
+  padding-right: 32px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,6 +29,6 @@ export default {
 .logo {
   height: 16px;
   width: 16px;
-
+  padding-right: 4px;
 }
 </style>
