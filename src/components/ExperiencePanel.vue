@@ -9,8 +9,6 @@ import ExperienceItem from './ExperienceItem.vue';
     start_date="Jan 2023" 
     end_date="Oct 2023"
     role="Senior Software Developer"
-    company="Freelance"
-    company_link=""
     :achievements="[
       'Created Video streaming App for Android working with SRT / Rest API', 
       'Implemented UI using Jetpack Compose', 

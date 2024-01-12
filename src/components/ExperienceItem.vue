@@ -13,7 +13,7 @@ export default {
     <time class="date">{{ start_date }} - {{ end_date }}</time>
     <div class="experience_description">
       <h3>{{ role }}</h3>
-      <p class="company">{{ company }} [<a class="company_link" :href="full_link">{{ full_link }}</a>]</p>
+      <p v-if="company" class="company">{{ company }} [<a class="company_link" :href="full_link">{{ full_link }}</a>]</p>
       <li v-for="item in achievements">
         {{item}}
       </li>
