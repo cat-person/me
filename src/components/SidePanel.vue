@@ -18,16 +18,15 @@ import SkillsPanel from './SkillsPanel.vue';
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 200px;
-  padding: 20px;
+  width: 220px;
+  padding-left: 20px;
   background-color: #263238;
 }  
 
 .avatar_wrapper {
-  height: 5cm;
-  width: 160px;
+  height: 200px;
   display: flex;
-  justify-content: center;
+  padding-top: 20px;
 }
 .avatar {
   height: 160px;

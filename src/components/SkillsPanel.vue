@@ -45,8 +45,10 @@ export default {
 <style scoped>
 h2 {
   color: #FFFFFF;
+  padding-bottom: 6px;
 }
 h4 {
+  height: 20px;
   color: #FFFFFF;
 }
 .skills{
