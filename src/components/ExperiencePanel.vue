@@ -10,7 +10,7 @@ import ExperienceItem from './ExperienceItem.vue';
     end_date="Oct 2023"
     role="Senior Software Developer"
     company="Freelance"
-    company_link="https://www.upwork.com/"
+    company_link="upwork.com"
     :achievements="[
       'Created Video streaming App for Android working with SRT / Rest API', 
       'Implemented UI using Jetpack Compose', 
