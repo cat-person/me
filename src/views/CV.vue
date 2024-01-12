@@ -13,8 +13,10 @@ import '@/global.css';
     <!-- <img class="bg" src="@/assets/background.svg"> -->
     <div class="data">
       <PersonalInfoPanel/>
-      <ExperiencePanel  class="experience_bg"/>
-      <EducationPanel  class="experience_bg"/>
+      <div class="scrollable">
+        <ExperiencePanel  class="experience_bg"/>
+        <EducationPanel  class="experience_bg"/>
+      </div>
     </div>
   </div>  
 </template>
@@ -30,18 +32,23 @@ import '@/global.css';
 }
 
 .experience_bg {
+  position: absolute;
   background-color: aqua;
 }
 
 .bg {
   width: 1024px;
   height: fit-content;
-  position: absolute;
 }
 
 .data {
   height: 100%;
+  padding-left: 20px;
+}
+
+.scrollable {
+  height: 80%;
   width: 100%;
-  padding: 20px;
+  overflow: scroll;
 }
 </style>
