@@ -24,6 +24,7 @@ import PersonalLink from './PersonalLink.vue';
 
   .me_subtitle {
     height: 48px;
+    color: #A84322;
   }
 
   .personal_panel {

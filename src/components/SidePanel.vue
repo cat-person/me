@@ -20,7 +20,7 @@ import SkillsPanel from './SkillsPanel.vue';
   height: 100%;
   width: 220px;
   padding-left: 20px;
-  background-color: #263238;
+  background-color: #0E1B2B;
 }  
 
 .avatar_wrapper {

@@ -31,11 +31,6 @@ import '@/global.css';
   align-items: end;
 }
 
-.experience_bg {
-  position: absolute;
-  background-color: aqua;
-}
-
 .bg {
   width: 1024px;
   height: fit-content;

@@ -22,20 +22,21 @@ h1 {
     font-size: 1.6cm;
     font-family: "LibreBaskerville";
     text-transform: capitalize;
-    color: #FF9E80;
+    color: #12243A;
 }
 
 h2 {
     font-size: 0.9cm;
     font-family: "Montserrat";
     text-transform: uppercase;
-    color: #191970;
+    color: #12243A;
 }
 
 h3 {
     font-size: 0.5cm;
     font-family: "Montserrat";
     text-transform: uppercase;
+    color: #A84322;
 }
 
 h4 {
@@ -48,21 +49,23 @@ h4 {
 p {
     font-size: 0.3cm;
     font-family: "MontserratRegular";
+    color: #264A76;
 }
 
 div {
     font-size: 0.3cm;
     font-family: "Montserrat";
+    color: #264A76;
 }
 
 li{
     font-size: 0.3cm;
     font-family: "MontserratRegular";
-    color: #191970;
+    color: #264A76;
 }
 
 time {
     font-size: 0.3cm;
     font-family: "Monaco";
-    color: 191970;
+    color: #264A76;
 }
