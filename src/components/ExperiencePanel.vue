@@ -55,7 +55,7 @@ import ExperienceItem from './ExperienceItem.vue';
     ]"/>
 
   <ExperienceItem 
-    start_date="Feb 2011" 
+    start_date="Feb 2012" 
     end_date="Oct 2015"
     role="Android Software Engineer"
     company="Touch Instinct"
