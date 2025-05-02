@@ -1,6 +1,6 @@
 <script setup>
-import SkillsPanel from './SkillsPanel.vue';
-
+import PdfDownload from './PdfDownload.vue';
+import SkillsPanel from './SkillsPanel.vue'
 </script>
 
 <template>
@@ -9,11 +9,12 @@ import SkillsPanel from './SkillsPanel.vue';
         <img class="avatar" src="@/assets/me.png"/>
       </div>
       <SkillsPanel/>
+
+      <PdfDownload class="pdf_download"/>
     </div>
 </template>
 
 <style scoped>
-
 .side_panel{
   display: flex;
   flex-direction: column;
@@ -23,7 +24,6 @@ import SkillsPanel from './SkillsPanel.vue';
   padding-right: 20px;
   background-color: #0E1B2B;
 }  
-
 .avatar_wrapper {
   height: 200px;
   display: flex;
@@ -33,5 +33,12 @@ import SkillsPanel from './SkillsPanel.vue';
   height: 160px;
   width: 160px;
   border-radius: 50%;
+}
+.pdf_download {
+  display: flex;
+  width: 160px;
+  flex-direction: row;
+  position: absolute;
+  bottom: 4px;
 }
 </style>

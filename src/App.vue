@@ -1,9 +1,6 @@
 <script setup>
-// import { RouterLink, RouterView } from 'vue-router'
 import CV from './views/CV.vue';
 </script>
-
-
 
 <template>
     <CV class="wrapper"/>
@@ -12,6 +9,7 @@ import CV from './views/CV.vue';
 <style scoped>
 .wrapper {
   height: 100vh;
+  overflow: hidden;
   max-width: 80vw;
   min-width: 1024px;
 }

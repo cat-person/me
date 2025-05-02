@@ -25,6 +25,7 @@ import '@/global.css';
 .cv {
   height: 100%;
   width: 100%;
+  background-color:#f0f0f0;
   display: flex;
   flex-direction: row;
   justify-content: bottom;
